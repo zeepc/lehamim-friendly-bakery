@@ -2,7 +2,7 @@ class Cake
 	attr_accessor :cake, :description, :price
 	def intialize(cake,description,price)
 		@cake = cake
-		@description =description
+		@description = description
 		@price = price
 	end
 end
@@ -27,8 +27,8 @@ end
 
 
 #Cake objects
-tea_cake = Cake.new()
-babka = Cake.new()
+forest_cake = Cake.new("Forest Fruits","Made with the finest chocolates from beligum, topped with fresh berries and house made jam. Perfect for any occasion!","$35")
+babka = Cake.new("Chocolate Babka", "Swirly, old world goodness. The perfect companion for coffee or tea.", "$12")
 
 #Cookie objects
 hamantaschen = Cookie.new()
