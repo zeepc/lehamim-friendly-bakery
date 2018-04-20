@@ -1,8 +1,8 @@
 body{
-background-size:cover;
-background-attachment:fixed;
-margin:0;
-width:100%;
+	background-size:cover;
+	background-attachment:fixed;
+	margin:0;
+	width:100%;
 
 }
 nav{
@@ -19,51 +19,122 @@ p.navp{
 	text-align:center;
 	font-size: 20px;
 }
-div .slider{
-	position: absolute;
-	top: 20%;
-	height:100%;
+div.slider{
+	position:fixed;
+	margin-top: 6.6%;
 }
 .foodslide{
-/*  	opacity: .78; */	
+  	opacity: .78; 	
 
  }
-/* .logopic{
- 	height: 120px;
- }*/
-
- /*Main Page*/
- div.row.about{
- 	margin-top: 140px;
- 	margin-left: 15px;
- 	margin-right: 15px;
- }
-
- .info{
- 	height: 250px;
- 	width: 600px;
- 	float: left;
- 	margin-left: 25px;
- }
-.address{
-	height: 250px;
- 	width: 500px;
- 	float: left;
- 	margin-left: 35px;
-
+footer.page-footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	background-color: #633e51;
+	z-index: 1;
+	height: 70px;
+	width:100%;	
 }
 
-.map{
-	height: 250px;
-	width: 450px;
-	background-color: grey;
+/* About */
+ .row.about{
+ 	position: absolute;
+ 	top:25%;
+ 	left:4%;
+ 	font-size: 19px;
+ 	height: 350px;
+ 	width: 870px;
+ 	text-align: center;
 }
+div.row p{
+	position:absolute;
+	top: 15%;
+	left: 14%;
+	width: 850px;
+}
+.map {
+	position: relative;
+	left: 50%;
+ 	height: 65%;
+ 	width: 65%;
+}
+.mappic{
+	width: 310px;
+	height: 200px;
+}
+
+.timeplace{
+	
+}
+
  /*MENU CSS*/
- .row{
- 	margin-top: 25px;
+ img.activator{
+ 	height:172px;
+ 	width: 260px;
+ }
+.row{
+ 	position:absolute;
+ 	width: 950px;
+ 	left: 13%;
+ 	top:32%; 	
  }
 
  div.card.col.s12.m6.l3{
- 	width: 280px;
- 	margin-left: 30px;	
+ 	width: 290px;
+ 	margin-left: 25px;	
  }
+
+div.card-reveal{
+ 	display: block;
+ }
+
+
+ /*MODAL CSS*/
+ div.modal{
+ 	z-index: 1;
+ 	height: 375px;
+ 	width: 550px;
+ 	background-color: #800044;
+ 	color: #ffffffba;
+ }
+ div.modal p{
+ 	width: 420px;
+ }
+
+input.namefield {
+ 	position:absolute;
+ 	top: 40%;
+ 	left: 2%;
+ }
+input.emailfield {
+ 	position:absolute;
+ 	top: 57%;
+ 	left: 2%;
+ }
+ 
+ a.btn{
+ 	position:absolute;
+ 	top: 105%;
+ 	left: 50%;
+ 	background-color: #880e4f;
+ }
+.form{
+ 	position:absolute;
+	top:5%;
+	left:23%;
+	height:420px;
+	width: 500px;
+}
+.head{
+	height: 100px;
+	width: 150px;
+	z-index: 1;
+}
+.sendbt{
+	position:absolute;
+ 	top: 80%;
+ 	left: 45%;
+	background-color: #cac7c7ed;
+	box-shadow: #000000c2 2px 3px 3px;
+}

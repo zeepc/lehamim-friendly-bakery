@@ -4,24 +4,36 @@
 	<title>Lehamim USA</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Abril+Fatface|Poiret+One|Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>	
+  <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
       <a href="/index" class="brand-logo"><img src="images/logo.png" class="logopic"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/menu"><p class="navp">MENU</p></a></li>
-        <li><a href="/about"><p class="navp">ABOUT</p></a></li>
-        <li><a href="/collapsible"><p class="navp">SOMETHING</p></a></li>
+          <li><a href="/about"><p class="navp">ABOUT</p></a></li>
+        <li><a href="/cake"><p class="navp">CAKES</p></a></li>
+        <li><a href="/cookies"><p class="navp">COOKIES</p></a></li>
+        <li><a href="/muffins"><p class="navp">MUFFINS</p></a></li>
       </ul>
     </div>
   </nav>
+</div>
 
  			<%= yield %>
 
 
+
+  <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Subscribe</a>
+            </div>
+          </div>
+        </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="js/main.js"></script>

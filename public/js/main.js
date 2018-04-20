@@ -1,15 +1,10 @@
- // var elem = document.querySelector('.slider');
- // var instance = M.Slider.init(elem, options);
-
 
 $(document).ready(function(){
-    $('.slider').slider();
+	//Main page slider
+	 $('.slider').slider();
+	 //Modal 
+    $('.modal').modal();
   });
 
-// (function($){
-//   $(function(){
 
-//    $('.slider').slider();
 
-//   });
-// })(jQuery);
